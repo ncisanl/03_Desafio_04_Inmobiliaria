@@ -183,12 +183,12 @@ for (let propertyRentHome of propertiesRentHome) {
   htmlPropertiesRentHome += templatePropertiesRentHome;
 }
 
-const propertiesSaleSection = document.querySelector(
-  ".properties-sale-section",
+const propertiesSaleSectionHome = document.querySelector(
+  ".properties-sale-section-home",
 );
-const propertiesRentSection = document.querySelector(
-  ".properties-rent-section",
+const propertiesRentSectionHome = document.querySelector(
+  ".properties-rent-section-home",
 );
 
-propertiesSaleSection.innerHTML = htmlPropertiesSaleHome;
-propertiesRentSection.innerHTML = htmlPropertiesRentHome;
+propertiesSaleSectionHome.innerHTML = htmlPropertiesSaleHome;
+propertiesRentSectionHome.innerHTML = htmlPropertiesRentHome;
