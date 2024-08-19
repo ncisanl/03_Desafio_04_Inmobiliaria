@@ -79,6 +79,18 @@ const propertiesSale = [
     smoke: true,
     pets: true,
   },
+  {
+    src: "https://imganuncios.mitula.net/venta_hoteleria_santiago_merced_estados_unidos_1510026705518468890.jpg",
+    alt: "Imagen del departamento 07",
+    name: "Tu nuevo hogar en el centro de la ciudad",
+    description: "Casa elegante y céntrica, ideal para vivir cerca de todo",
+    location: "123 Urban Avenue, City Center, NY 10001",
+    bedrooms: 2,
+    bathrooms: 2,
+    cost: 3000,
+    smoke: false,
+    pets: true,
+  },
 ];
 
 for (let propertySale of propertiesSale) {

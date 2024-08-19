@@ -78,6 +78,18 @@ const propertiesRent = [
     smoke: true,
     pets: true,
   },
+  {
+    src: "https://a0.muscache.com/im/pictures/5b2a5847-eae1-432e-bbf2-be13a9941c16.jpg?im_w=480",
+    alt: "Imagen del departamento 07",
+    name: "Retiro rural con encanto en el campo",
+    description: "Casa rústica en el campo, perfecta para una escapada relajante",
+    location: "987 Farmstead Road, Meadowbrook, OH 44130",
+    bedrooms: 4,
+    bathrooms: 3,
+    cost: 6000,
+    smoke: false,
+    pets: true,
+  },
 ];
 
 for (let propertyRent of propertiesRent) {
